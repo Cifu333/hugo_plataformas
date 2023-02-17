@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1008867589617027542}
   - component: {fileID: 6857232421532240298}
   - component: {fileID: 529533886823427535}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: bala
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 63c4d6364a1b0a143bc0b8a481f9f97a, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 592f72e3f66fb8e499425530541bee2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,7 +125,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.86, y: 5.6}
+    oldSize: {x: 0.98, y: 0.8}
     newSize: {x: 6.86, y: 5.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -146,4 +146,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b0777f97a6a76439a3e0bca6970d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5000
+  speed: 4000
